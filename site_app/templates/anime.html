@@ -12,10 +12,16 @@
        
         {% extends 'base.html' %}
         {% block coluna2 %}
+        <div class ="row">
+
+
+            {% block title %}{% endblock %}
+            Recomendações de animes
+        </div>
         <div class="row">
         <a href ="https://www.netflix.com/title/81511410">
-            Spy family
-            <div class="card bg-dark border" style="width: 18rem;">
+            
+            <div class="card bg-dark border" >
                 <img class="card-img-top" src="https://th.bing.com/th/id/R.5ecf923c2fc84d16ce9ce7c290a131ab?rik=S4UiDOVTJcoAiQ&riu=http%3a%2f%2fkelasanimasi.com%2fwp-content%2fuploads%2f2022%2f09%2f1-17.jpg&ehk=M4rGswqK6OQuMg7B8ZIzDiyi2NahqXAwYehma1ozaOs%3d&risl=&pid=ImgRaw&r=0" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -26,9 +32,10 @@
     <div class="row">
        
         <a href ="https://www.netflix.com/title/81511410">
-            Parasity
            
-            <div class="card bg-dark border" style="width: 18rem;">
+           
+            <div class="card bg-dark border
+            ">
                 <img class="card-img-top" src=" https://th.bing.com/th/id/R.b6dea366fb20457e2d0b8a6a4c85e50f?rik=nR2zO%2fMUzZLuog&pid=ImgRaw&r=0" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -42,9 +49,9 @@
     <div class="row">
        
         <a href ="https://www.netflix.com/title/81511410">
-            Parasity
            
-            <div class="card bg-dark border" style="width: 18rem;">
+           
+            <div class="card bg-dark border" >
                 <img class="card-img-top" src=" https://th.bing.com/th/id/OIP.-Kf-BwdT27abne7s6FlhFwHaGP?rs=1&pid=ImgDetMain" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -54,6 +61,26 @@
     </div>
 
         {% endblock %}
+        <br>
+        {% block coluna %}
+
+    
+          {% endblock %}
+          {% block email %}24rodrigotrabalho@gmail.com  {% endblock %}
+
+          {% block sobre %}Me contrata {% endblock %}
+
+{% block  criador %}Site feito por um estudante de engenharia da computação {% endblock %}
+
+
+{% block link %}<a href="#" class="text-white"> </a>{% endblock %}
+
+{% block link2 %}<a href="#" class="text-white"> </a>{% endblock %}
+{% block link3 %}<a href="#" class="text-white"> </a>{% endblock %}
+{% block link4 %}<a href="#" class="text-white"> </a>{% endblock %}
+
+
+{% block linkedin %} <a href ='https://www.linkedin.com/in/rodrigo-ap-515690323/'/> linkedin </a> {% endblock %}
        
     </main>
     <footer>
